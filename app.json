@@ -1,0 +1,30 @@
+{
+  "name": "leonsks",
+  "description": "sks",
+  "keywords": [
+    ""
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "UUID",
+      "value": "6cb4a758-45ca-4368-9a62-b1d0cf8d89ab",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/sks",
+      "required": true
+    }
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
